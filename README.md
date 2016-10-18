@@ -2,6 +2,8 @@
 
 ###Step 1:
 -------
+* First, all the similar data is merged using the `rbind()` function. By similar, we address those files having the same number of columns and referring to the same entities.
+
 * Pulls all data from the "UCI HAR Dataset" file.
 
 * Creates "id" column based on initial row number for easier referencing.
