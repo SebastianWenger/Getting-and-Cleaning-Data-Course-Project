@@ -1,6 +1,6 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-Step 1:
+###Step 1:
 -------
 -Pulls all data from the "UCI HAR Dataset" file.
 
