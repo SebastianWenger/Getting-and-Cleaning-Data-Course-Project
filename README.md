@@ -2,19 +2,17 @@
 
 ###Step 1:
 -------
-* First, all the similar data is merged using the `rbind()` function. By similar, we address those files having the same number of columns and referring to the same entities.
-
 * Pulls all data from the "UCI HAR Dataset" file.
 
 * Creates "id" column based on initial row number for easier referencing.
 
-* Merges all of the training data together into 'mergetrain' along with all of the test data together into 'mergetest'.
+* Merges all of the training data together into `mergetrain` along with all of the test data together into `mergetest`.
 
-* Binds the training data 'mergetrain' and test data merge'test together by row.
+* Binds the training data `mergetrain` and test data `mergetest` together by row.
 
 ###Step 2:
 -------
-* Selects features which follow the naming criteria specified in 'specific_features' where "mean" and "std" are selected for.
+* Selects features which follow the naming criteria specified in `specific_features` where "mean" and "std" are selected for.
 
 ###Step 3:
 -------
@@ -24,9 +22,9 @@
 ###Step4:
 -------
 
-* Unnecessary characters are removed from feature names.
+* Unnecessary characters such as "-" or "()" are removed from feature names.
 
-* Feature names are added to its corresponding column.
+* Feature names are added to their corresponding column.
 
 ###Step 5:
 -------
