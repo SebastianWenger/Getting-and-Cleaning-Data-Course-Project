@@ -12,7 +12,7 @@ Step 1:
 
 Step 2:
 -------
--Selects features which follow the naming criteria specified in 'specific_features', where "mean" and "std" are selected for.
+-Selects features which follow the naming criteria specified in 'specific_features' where "mean" and "std" are selected for.
 
 Step 3:
 -------
