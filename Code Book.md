@@ -1,4 +1,4 @@
-CodeBook for the tidy dataset
+Tidy Dataset Codebook
 =============================
 
 Data source
