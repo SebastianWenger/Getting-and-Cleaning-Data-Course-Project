@@ -20,10 +20,12 @@ Step4:
 -------
 
 -Unnecessary characters are removed from feature names.
+
 -Feature names are added to its corresponding column.
 
 Step 5:
 -------
 
 -Means are found for each variable, by subject and activity.
+
 -Tidy dataset outputted as "meandata.txt".
