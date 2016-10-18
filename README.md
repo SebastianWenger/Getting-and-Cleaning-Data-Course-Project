@@ -10,23 +10,23 @@
 
 -Binds the training data 'mergetrain' and test data merge'test together by row.
 
-Step 2:
+###Step 2:
 -------
 -Selects features which follow the naming criteria specified in 'specific_features' where "mean" and "std" are selected for.
 
-Step 3:
+###Step 3:
 -------
 
 -Activities, previously denoted numerically, are assigned names at 6 levels which correspond to "activity_labels.txt" file.
 
-Step4:
+###Step4:
 -------
 
 -Unnecessary characters are removed from feature names.
 
 -Feature names are added to its corresponding column.
 
-Step 5:
+###Step 5:
 -------
 
 -Means are found for each variable, by subject and activity.
