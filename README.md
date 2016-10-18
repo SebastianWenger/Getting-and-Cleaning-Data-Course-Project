@@ -29,6 +29,6 @@
 ###Step 5:
 -------
 
-* Means are found for each variable by subject and activity using 'aggregate'.
+* Means are found for each variable by subject and activity using `aggregate`.
 
 * Tidy dataset outputted as "meandata.txt".
