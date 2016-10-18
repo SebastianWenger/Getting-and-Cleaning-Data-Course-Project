@@ -20,5 +20,5 @@ means = means of each subject and activity in single
 
 
 Values
-subsetnames = character vector of names filtered by mean and std
+subsetnames = character vector of nmes filtered by mean and std
 subsetnumbers = character vector of row numbers filtered by mean and std
