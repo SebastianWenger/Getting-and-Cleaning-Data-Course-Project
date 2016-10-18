@@ -1,9 +1,21 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-1. Pulls training and test data and binds x testing+training together by row, along with y testing+training by row.
-2. Binds each of these with the subject and activity data.
-3. Subsets the subject, activity, and variables by whether the rows corresponding name has "mean" or "std" in it.
-4. Factorizes the activity column into 6 levels, with corresponding labels from a text file.
-5. Modifies "name" column by elaborating on certain acronyms.
-6. Merges all of the subsetted data into a single data set.
-7. Creates second data set with the mean of every variable according to each subject and activity.
+Step 1:
+-Pulls all data from the "UCI HAR Dataset" file.
+-Creates "id" column based on initial row number for easier referencing.
+-Merges all of the training data together into 'mergetrain', along with all of the test data together into 'mergetest'.
+-Binds the training data 'mergetrain' and test data merge'test together by row.
+
+Step 2:
+-Selects features which follow the naming criteria specified in 'specific_features', where "mean" and "std" are selected for.
+
+Step 3:
+-Activities, previously denoted numerically, are assigned names at 6 levels which correspond to "activity_labels.txt" file.
+
+Step4:
+-Unnecessary characters are removed from feature names.
+-Feature names are added to its corresponding column.
+
+Step 5:
+-Means are found for each variable, by subject and activity.
+-Tidy dataset outputted as "meandata.txt".
