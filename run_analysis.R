@@ -1,5 +1,7 @@
 d1 <- "C:/Users/Sebastian/Documents/R Files/Getting and Cleaning Data/Week 4/UCI HAR Dataset/train"  
+
 d2 <- "C:/Users/Sebastian/Documents/R Files/Getting and Cleaning Data/Week 4/UCI HAR Dataset/test"
+
 d3 <- "C:/Users/Sebastian/Documents/R Files/Getting and Cleaning Data/Week 4/UCI HAR Dataset"
 
 #1: Merges training and test
@@ -57,19 +59,4 @@ meandata <- meandata[,!(names(meandata) %in% remove)]
 meandata = merge(meandata, activities)
 meandata$activity = NULL
 meandata <- meandata[c(67, 1, 2, 3:66)]
-write.csv(file="meandata.csv", x=meandata, row.names = FALSE)
-
-
-
-
-
-
-
-
-                           
-
-
-
-
-
-                           
+write.txt(file="meandata.txt", x=meandata, row.names = FALSE)
