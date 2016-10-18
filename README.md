@@ -3,8 +3,11 @@
 Step 1:
 -------
 -Pulls all data from the "UCI HAR Dataset" file.
+
 -Creates "id" column based on initial row number for easier referencing.
+
 -Merges all of the training data together into 'mergetrain', along with all of the test data together into 'mergetest'.
+
 -Binds the training data 'mergetrain' and test data merge'test together by row.
 
 Step 2:
