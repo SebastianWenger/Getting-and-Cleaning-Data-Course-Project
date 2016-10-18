@@ -17,18 +17,18 @@
 ###Step 3:
 -------
 
-* Activities, previously denoted numerically, are assigned names at 6 levels which correspond to "activity_labels.txt" file.
+* Activities, previously denoted numerically, are assigned names at 6 levels which correspond to `activities`.
 
 ###Step4:
 -------
 
-* Unnecessary characters such as "-" or "()" are removed from feature names.
+* Unnecessary characters in 'specific_features' such as "-" or "()" are removed from feature names.
 
 * Feature names are added to their corresponding column.
 
 ###Step 5:
 -------
 
-* Means are found for each variable, by subject and activity.
+* Means are found for each variable by subject and activity using 'aggregate'.
 
 * Tidy dataset outputted as "meandata.txt".
